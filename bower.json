@@ -1,0 +1,24 @@
+{
+  "name": "js5",
+  "description": "first week javascript project",
+  "main": "index.js",
+  "authors": [
+    "Brad Pizzimenti"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pizzimenti/js5",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6"
+  }
+}
