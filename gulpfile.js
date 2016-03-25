@@ -56,7 +56,7 @@ gulp.task('cssBuild',['htmlBuild'], function() {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('bowerCSS', function () {
+gulp.task('bowerCSS',['cssBuild'], function () {
   return gulp.src(lib.ext('css').files)
     .pipe(concat('vendor.css'))
     .pipe(gulp.dest('./build/css'));
