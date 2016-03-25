@@ -1,5 +1,13 @@
 $background : darkgrey;
+$gameFont : 'Orbitron', sans-serif;
+
+.jumbotron {
+  font-family: $gameFont;
+}
 
 body {
   background: $background;
+  h1, h2, h3{
+    font-family: $gameFont;
+  }
 }
