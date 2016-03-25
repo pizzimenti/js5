@@ -25,6 +25,11 @@ $ npm install
 $ bower install
 ```
 
+Setup an API key:
+```
+$ echo 'exports.apiKey="YOUR API KEY";' >> .env
+```
+
 Build and Serve:
 ```
 $ gulp build
