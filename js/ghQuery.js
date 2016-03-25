@@ -8,6 +8,9 @@ exports.getRepos = function(username) {
     console.log(response.name);
     console.log('followers :',response.followers);
     console.log(response.repos_url);
+    $('#userImg').html("<img src="+response.avatar_url+"</img>");
+    $('#userName').html("<h3>"+response.login+"</h3>");
+    $('#realName').html("<h4>"+response.name+"</h4>");
   }).fail(function(error){
       console.log(error.responseJSON.message);
     });
